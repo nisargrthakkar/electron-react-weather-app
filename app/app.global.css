@@ -1,0 +1,134 @@
+@import "~font-awesome/css/font-awesome.css";
+@import "./components/Weather.css";
+@import "../bower_components/weather-icons/css/weather-icons.min.css";
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#namer {
+  margin: auto 0;
+  text-align: 'center'
+ }
+ 
+ #namer .textboxforcity {
+  border: 0;
+  border-bottom: 2px solid #ffffff;
+  width: 100%;
+  font-size: 30px;
+  line-height: 35px;
+  height: 70px;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+   color: #ffffff;
+ }
+ 
+ #namer .textboxforcity:focus {
+  outline: 0;
+   color: #ffffff;
+ }
+ 
+ #namer .textboxforcity::placeholder {
+  color: #ffffff;
+ }
+
+ .btn {
+  color: #001;
+  font-size: 20px;
+  background: #FFF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 0;
+  margin-top: 20px;
+  opacity: 0.75;
+}
+
+.counterBtn {
+  color: #001;
+  font-size: 20px;
+  background: #FFF;
+  padding: 10px 0px;
+  text-decoration: none;
+  border: 0;
+  margin: 15px auto;
+  opacity: 0.75;
+  width: 40%;
+  text-align: center
+}
+
+.counterBtn a{
+  color: #001;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.error {
+  font-size: 15px;
+  text-align: center;
+  color:#ffffff;
+} 
+ 
+ 
+
+
+ 
