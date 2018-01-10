@@ -9,7 +9,7 @@
 First, clone the repo via git:
 
 ```bash
-git clone --depth=1 https://github.com/chentsulin/electron-react-boilerplate.git your-project-name
+git clone https://github.com/nisargrthakkar/electron-react-weather-app.git your-project-name
 ```
 
 And then install dependencies with yarn.
